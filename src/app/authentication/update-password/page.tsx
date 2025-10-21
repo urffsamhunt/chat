@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from "react";
-import { updatePassword } from "../actions";
+import { updatePassword } from "../../login/actions";
 import { createClient } from "@/app/utils/supabase/client";
 
 export default function UpdatePasswordPage() {

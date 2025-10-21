@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Home, Person2Rounded, AdsClick, Campaign, AdminPanelSettings, Logout, Chat } from "@mui/icons-material";
-import { logout } from "../authentication/actions";
+import { logout } from "../login/actions";
 import { createClient } from "../utils/supabase/client";
 import { User } from "@supabase/supabase-js";
 

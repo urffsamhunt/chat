@@ -12,12 +12,12 @@ export function Hero() {
                     Connect securely in real-time with friends and groups, share media, and enjoy a clean, responsive experience on any device.
                 </p>
                 <div className="md:hidden flex mx-10 justify-around gap-6 mt-10">
-                    <Link href="/authentication" className="tooltip tooltip-bottom" data-tip="Login">
+                    <Link href="/login" className="tooltip tooltip-bottom" data-tip="Login">
                         <button className="text-lg text-white px-4 py-2 rounded-sm focus:ring-2 bg-[#8A8AFF] transition-all delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 focus:ring-offset-2 focus:ring-[#8A8AFF] active:bg-[#5C5CFF]">
                             Login
                         </button>
                     </Link>
-                    <Link href="/authentication" className="tooltip tooltip-bottom" data-tip="Register">
+                    <Link href="/signup" className="tooltip tooltip-bottom" data-tip="Register">
                         <button className="text-lg text-white px-4 py-2 rounded-sm focus:ring-2 bg-[#8A8AFF] transition-all delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 focus:ring-offset-2 focus:ring-[#8A8AFF] active:bg-[#5C5CFF]">
                             Sign up
                         </button>
@@ -29,12 +29,12 @@ export function Hero() {
                 Connect<br />
                 Communicate<br />
                 <div className="hidden md:flex md:col-span-1 gap-6">
-                    <Link href="/authentication" className="tooltip tooltip-bottom" data-tip="Login">
+                    <Link href="/login" className="tooltip tooltip-bottom" data-tip="Login">
                         <button className="text-lg text-white px-4 py-2 rounded-sm focus:ring-2 bg-[#8A8AFF] transition-all delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 focus:ring-offset-2 focus:ring-[#8A8AFF] active:bg-[#5C5CFF]">
                             Login
                         </button>
                     </Link>
-                    <Link href="/authentication" className="tooltip tooltip-bottom" data-tip="Register">
+                    <Link href="/signup" className="tooltip tooltip-bottom" data-tip="Register">
                         <button className="text-lg text-white px-4 py-2 rounded-sm focus:ring-2 bg-[#8A8AFF] transition-all delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 focus:ring-offset-2 focus:ring-[#8A8AFF] active:bg-[#5C5CFF]">
                             Sign up
                         </button>

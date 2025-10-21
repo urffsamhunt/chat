@@ -1,5 +1,5 @@
 import { send } from "process";
-import { sendResetLink } from "../actions";
+import { sendResetLink } from "../../login/actions";
 
 export default function ResetPage() {
     return (
